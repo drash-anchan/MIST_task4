@@ -1,0 +1,24 @@
+
+/* Animation classes */
+@keyframes fly-up {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-100px);
+    }
+}
+
+.fly-up {
+    animation: fly-up 0.5s ease-out forwards;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .hero p {
+        font-size: 1.2rem;
+    }
+}
