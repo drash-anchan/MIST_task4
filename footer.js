@@ -19,7 +19,7 @@ class CustomFooter extends HTMLElement {
                         <div>
                             <h4 class="font-bold mb-4">Shop</h4>
                             <ul class="space-y-2">
-                                <li><a href="products.html" class="footer-link text-primary-100 hover:text-white">All Products</a></li>
+                                <li><a href="page.html" class="footer-link text-primary-100 hover:text-white">All Products</a></li>
                                 <li><a href="#" class="footer-link text-primary-100 hover:text-white">Special Offers</a></li>
                             </ul>
 </div>
@@ -60,5 +60,6 @@ class CustomFooter extends HTMLElement {
         `;
     }
 }
+
 
 customElements.define('custom-footer', CustomFooter);
